@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/praveen/IdeaProjects/Assigment_Recruiterflow/src/test/java/TestClass/AddUserTest.java">
+        <classes>
+            <class name="TestClass.AddUserTest">
+                <methods>
+                    <include name="addRecruiter"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
