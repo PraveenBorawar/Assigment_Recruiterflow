@@ -41,6 +41,6 @@ public class AddUserTest extends BaseTest {
         UtilityMethods.invisibilityOfElement(recruiterPage.loader, driver);
 
         UtilityMethods.takeScreenshot(driver, System.getProperty("user.dir") + "/TestScreenShot/Screenshot.png");
-        UtilityMethods.generateReports(System.getProperty("user.dir") + "/TestReport/Report.png");
+        UtilityMethods.generateReports(System.getProperty("user.dir") + "/TestReport/Report.html");
     }
 }
